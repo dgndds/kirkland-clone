@@ -18,6 +18,9 @@ export class PagePatternComponent implements OnInit {
   @Input()
   slitHeightPercentage: number = 0;
 
+  @Input()
+  color: string = ''
+
   pageHeight: number = 0;
   pageWidth: number = 0;
 
